@@ -54,3 +54,32 @@ display: flex;
 .click:hover{
     color: grey
 }
+.second-img{
+    height: 250px;
+}
+.head-container{
+    text-decoration:underline;
+   text-align: center;
+    padding: 20px;
+    margin: 20px;
+}
+.aboutus-container{
+    height: 65vh;
+    background-color: white;
+    display: flex;
+    align-items: center;
+justify-content: space-around;
+font-family: 'Courier New', Courier, monospace;
+}
+.btn{
+    padding: 20px;
+    background-color: red;
+    color: black;
+    border: none;
+    border-radius: 2px;
+}
+.same{
+    margin: 100px;
+    padding: 100px;
+    height: 300px;
+}
