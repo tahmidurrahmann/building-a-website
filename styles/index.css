@@ -41,7 +41,8 @@ display: flex;
     background-size: cover;
 }
 .image{
-    height: 250px;
+    height: 200px;
+    width: 200px;
 }
 .click{
     color: black;
@@ -60,8 +61,9 @@ display: flex;
 .head-container{
     text-decoration:underline;
    text-align: center;
-    padding: 20px;
-    margin: 20px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+
 }
 .aboutus-container{
     height: 65vh;
@@ -82,4 +84,36 @@ font-family: 'Courier New', Courier, monospace;
     margin: 100px;
     padding: 100px;
     height: 300px;
+}
+.box{
+    height: 470px;
+    width: 250px;
+    background-color: rgb(15, 15, 15);
+    color:white;
+    border-radius: 2px;
+    box-shadow: 4px 4px 5px grey;
+}
+.service-container{
+    height: 500px;
+    display: flex;
+    justify-content: space-around;
+    background-image: url('./istockphoto-1194212027-612x612.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.hea{
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.par{
+    text-align: center;
+    padding-bottom: 10px;
+}
+.tag{
+    padding: 25px ;
+}
+.det{
+    margin: 20px 40px 20px 70px;
+    padding-bottom: 20px;
 }
