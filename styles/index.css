@@ -1,0 +1,56 @@
+.logo{
+    background-color: black;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    align-items: center;
+    padding: 20px;
+}
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.upper-work{
+    display: flex;
+background-color: black;
+color: white;
+height: 100px;
+align-items: center;
+justify-content: space-around;
+}
+.visit{
+list-style: none;
+display: flex;
+}
+.home{
+    cursor: pointer;
+    padding: 10px;
+}
+.home:hover{
+    color: cornflowerblue;
+}
+.middle-work{
+    display:flex ;
+    height: 100vh;
+    justify-content: space-around;
+    align-items:center ;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 10px 20px;
+    color: black;
+    background-image: url('./istockphoto-1194212027-612x612.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.image{
+    height: 250px;
+}
+.click{
+    color: black;
+    background-color: red;
+    cursor: pointer;
+    padding: 15px;
+    border: none;
+    border-radius: 2px;
+}
+.click:hover{
+    color: grey
+}
